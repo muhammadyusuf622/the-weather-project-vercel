@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+
+/* Dastlab yashirin */
+.custom-scroll::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Hover bo‘lganda ko‘rsatish */
+.custom-scroll:hover::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.custom-scroll:hover::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  border: 4px solid transparent;
+  background-clip: padding-box;
+}
+
+.custom-scroll:hover::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+/* Firefox */
+.custom-scroll {
+  scrollbar-color: rgba(255,255,255,0.4) transparent;
+}
+
