@@ -114,7 +114,7 @@ const SidebarLayout = () => {
     <div
       className={`${
         localDark ? "bg-white/10" : "bg-black/10"
-      }  backdrop-blur-[5px] w-full md:w-[550px] h-[90vh] md:h-[100vh] border-r-5 border-white/20 p-4 text-white overflow-hidden transition-colors duration-1000 ease-in-out `}
+      }  backdrop-blur-[5px] w-full md:w-[550px] h-[90vh] md:h-[100vh] border-r-5 border-white/20 p-4 text-white overflow-hidden transition-colors duration-1000 ease-in-out main-sidabrLayout `}
     >
       <div className="w-[80%] m-auto">
         <div className="relative mt-15 w-full md:block hidden">
