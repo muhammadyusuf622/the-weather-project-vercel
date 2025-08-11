@@ -77,7 +77,7 @@ const NavbarLayout = () => {
         }}
         className="cursor-pointer"
       >
-        <Settings size={isSmall ? 28 : 42} />
+        <Settings size={isSmall ? 28 : 32} />
       </motion.div>
 
 
