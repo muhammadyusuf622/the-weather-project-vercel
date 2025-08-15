@@ -29,7 +29,7 @@
   scrollbar-color: rgba(255,255,255,0.4) transparent;
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
   .main-sidabrLayout {
     width: 480px;
   }
